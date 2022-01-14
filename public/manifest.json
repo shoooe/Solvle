@@ -1,5 +1,5 @@
 {
-  "name": "Solvler",
+  "name": "Solvle",
   "description": "Solver for Wordle",
   "manifest_version": 2,
   "version": "1.0.0",
@@ -24,8 +24,8 @@
     "persistent": false
   },
   "permissions": [
-    "https://*/*",
-    "http://*/*",
+    "https://powerlanguage.co.uk/wordle/",
+    "https://www.powerlanguage.co.uk/wordle/",
     "tabs"
   ]
 }
