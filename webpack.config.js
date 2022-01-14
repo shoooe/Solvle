@@ -2,6 +2,7 @@ const path = require("path");
 const CopyPlugin = require("copy-webpack-plugin");
 
 const config = {
+  mode: "production",
   entry: {
     inject: path.join(__dirname, "src/inject.ts"),
     background: path.join(__dirname, "src/background.ts"),

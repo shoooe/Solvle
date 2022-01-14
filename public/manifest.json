@@ -1,18 +1,20 @@
 {
-  "name": "Wordle Solver",
+  "name": "Solvler",
   "description": "Solver for Wordle",
   "manifest_version": 2,
   "version": "1.0.0",
   "icons": {
     "16": "icon16.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "32": "icon32.png",
+    "180": "icon180.png",
+    "192": "icon192.png",
+    "512": "icon512.png"
   },
   "browser_action": {
     "default_title": "Inject!",
     "default_icon": {
       "16": "icon16.png",
-      "48": "icon48.png"
+      "32": "icon32.png"
     }
   },
   "background": {
